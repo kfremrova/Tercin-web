@@ -1,0 +1,8 @@
+Informace z návrhu /Figma/
+
+background1: #FFF5E7 /main background, light
+background2: #D6BEA7; /darker background for pictures
+background3: #FFFDFAA6; /text background
+text1: #7B624A; /main text colour
+text2: #947558; /heading text colour
+
