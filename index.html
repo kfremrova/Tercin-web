@@ -4,39 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--připojení stylů-->
+    <link rel="stylesheet" href="style.css">
+    <!--připojení Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <title>Tereza</title>
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <h1 class="title header__title">Tereza</h1>
       <nav class="menu">
-        <ul>
+        <input type="checkbox" class="menu__checkbox" id="menu-checkbox" />
+        <label for="menu-checkbox" class="menu__toggler"
+          ><i class="fas fa-bars"></i> Menu</label
+        >
+        <ul class="menu__list">
           <li class="menu__item">Úvod</li>
           <li class="menu__item">O mně</li>
           <li class="menu__item">Tvořím</li>
           <li class="menu__item">Kontakt</li>
         </ul>
       </nav>
-  </header>
+    </header>
 
     <main>
-      <img src="images/rezba.jpg" alt="Řezba spící kotě">
-        <p>Lorem ipsum dolor sit amet, 
-            consectetuer adipiscing elit. 
-            Phasellus rhoncus. 
-            Phasellus faucibus molestie 
-            nisl. Duis pulvinar. 
-            Proin pede metus, vulputate
-            nec, fermentum fringilla, 
-            vehicula vitae, justo. 
-            Nullam sapien sem, 
-            </p>
+      <img src="images/rezba.jpg" alt="Řezba spící kotě" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
+        rhoncus. Phasellus faucibus molestie nisl. Duis pulvinar. Proin pede
+        metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Nullam
+        sapien sem,
+      </p>
     </main>
 
     <footer class="footer">
       <p>© Tereza</p>
-      <p>Code by KF</p>     
+      <p>Code by KF</p>
     </footer>
-
   </body>
 </html>
